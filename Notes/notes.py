@@ -28,22 +28,52 @@ print(average)
 print("The average age being:", person1, "-", person2, "-", person3, "-", person4, "-", average)
 
 # Math equations!
-num_1 = 12
-num_2 = 4
+num_one = float(input("Give me a number:\n")) 
+num_two = int(input("Give me a number:\n"))
 
-print("addition:", num_1 + num_2)
-print("subtraction:", num_1 - num_2)
-print("Multipilcation:", num_1 * num_2)
-print("Division:", num_1 / num_2)
-print("exponents:", num_1 ** num_2)
-print("integer diviion:", num_1 // num_2)
-print("modulo (remainder):", num_1 % num_2)
+num_one += num_two
+print("addition (+);", round(num_one, 2)) #1. What needs rounded 2. how many decimals
+num_one -= num_two
+
+print("addition:", num_one)
+num_one += num_two
+
+print("subtraction:", num_one)
+num_one -= num_two
+
+print("Multipilcation:", num_one)
+num_one *= num_two
+
+print("Division(/):", round(11/3, 2))
+num_one /= num_two
+
+print("exponents:", num_one)
+num_one **= num_two
+
+print("integer diviion:", num_one)
+num_one //= num_two
+
+print("modulo (remainder):", num_one)
+num_one %= num_two
+
+print("(3*5**2/15)-(5-2**2)",(3*5**2/15)-(5-2*2))
+
+
+#DATA TYPES 
+            
+# Integers = data type that can hold whole numbers
+
+# floating point number (float) = hold decimals
 
 # an expression...
    # is a collection of numbers and symbols imn order to get a restult. 
+
 
 # List ALL of the different mathematical operators (Give me the symbol and tell me what it does)
     # add=+
     # multiply=*
     # subtract=-
     # divide=/
+
+# Why are expressions so important in programming?
+    # If you set it up once, you never have to set it up again. 
