@@ -4,7 +4,7 @@
 # rent; 1200
 #Utilites: 250
 #Groceries: 200
-#Trnsportaion: 500
+#Trnsportaion: 500 jj
 
 #saving should be 300
 # percet_rent: 1200/3000
